@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="style/superslides.css">
+    <link rel="stylesheet" type="text/css" href="style/particlecss.css">
+    <link rel="stylesheet" type="text/css" href="style/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <title>Harsh Navani</title>
+</head>
+
+<body>
+    <header id="home">
+        <!-- navbar -->
+        <div class="navB">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg full-width">
+                    <a href="#home" class="navbar-brand">robo</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu"
+                        aria-controls="#menu" aria-expanded="false" aria-label="ToggleNavigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active "><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- slider -->
+        <div class="mainSlider">
+            <div id="slides">
+                <div class="dark"></div>
+                <div class="slides-container">
+                    <img src="sliderImages/pc.jpg" alt="">
+                    <img src="sliderImages/low poly.png" alt="">
+                    <img src="sliderImages/csgo.jpg" alt="">
+                </div>
+            </div>
+
+
+            <!-- particle.js -->
+            <div class="part">
+                <div id="particles-js"></div>
+            </div>
+
+            <!-- Center Title -->
+            <div class="mainhead">
+                <h1 class="typed"></h1>
+                <div class="subhead">
+                    <h3 class="subhead1">Programmer</h3>
+                    <h3 class="subhead1">Designer</h3>
+                    <h3 class="subhead1">Gamer</h3>
+                </div>
+                <div class="socialMedia">
+                    <a href="www.facebook.com/navaniharsh31" class="facebook" target="_blank " rel="noopener">
+                        <i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="www.facebook.com/navaniharsh31" class="instagram" target="_blank " rel="noopener">
+                        <i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="www.facebook.com/navaniharsh31" class="snapchat" target="_blank " rel="noopener">
+                        <i class="fab fa-snapchat fa-2x"></i></a>    
+                    <a href="www.facebook.com/navaniharsh31" class="linkedin" target="_blank " rel="noopener">
+                        <i class="fab fa-linkedin fa-2x"></i></a>    
+                    <a href="www.facebook.com/navaniharsh31" class="github" target="_blank " rel="noopener">
+                        <i class="fab fa-github fa-2x"></i></a>    
+                    <a href="www.facebook.com/navaniharsh31" class="steam" target="_blank " rel="noopener">
+                        <i class="fab fa-steam fa-2x"></i></a>    
+                </div>
+            </div>
+
+            
+            
+
+
+
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="aboutMe">
+        <div class="container">
+            <img src="./img/me.jpg" alt="" class="me">
+
+            <h1 class="heading">Hello World!</h1>
+            <p>I'm a Third year Computer Enginering student studying in Thadomal Shahani Engineering College, Mumbai.
+                I've been passionate about tech since childhood and ive enjoyed messing around with it since then.
+                I'm interested in Graphics desgining since a long time and have a fair experience in it.
+                <br>Below is my techstack.
+
+            </p>
+        </div>
+
+
+        <!-- Techstack -->
+
+        <div class="container">
+            <div class="techstack">
+                <div id="typed-strings">
+                    <p>
+                        <span id="purple">class </span><span id="amber">techstack</span>{<br>
+
+                        <span class="tab" id="orange">public:</span><br>
+                        <span class="tab2" id="peach">Adobe Photoshop;</span><br>
+                        <span class="tab2" id="peach">HTML;</span><br>
+                        <span class="tab2" id="peach">CSS;</span><br>
+                        <span class="tab2" id="peach">UI/ UX;</span><br>
+
+                        <span class="tab" id="orange">private:</span><br>
+                        <span class="tab2" id="peach">Python;</span><br>
+                        <span class="tab2" id="peach">C++;</span><br>
+                        <span class="tab2" id="peach">C;</span><br>
+
+                        };
+
+                    </p>
+
+                </div>
+                <span class="typed1"></span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1 class="heading">Lets get in touch!</h1>
+            
+            <div class="outerFlex">
+                <form action="https://formspree.io/xbjzgnnz" class="form" method="POST">
+                    <div class="topform">
+                        <div class="formelement">
+                            <label for="name" class="formtitle">Enter Name</label>
+                            <input type="text" name="name" class="forminput" required placeholder="Your Name. . .">
+                        </div>
+                        <div class="formelement">
+                            <label for="name" class="formtitle">Enter Email</label>
+                            <input type="email" name="_replyto" class="forminput" required
+                                placeholder="Your Email. . .">
+                        </div>
+                    </div>
+
+                    <div class="bottomform">
+                        <label for="message" class="formtitle">Enter message</label>
+                        <textarea type="text" name="message" rows="10" class="messageInput"
+                            placeholder="Your message. . ."></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn">
+                    
+            </div>
+            </form>
+            
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <span id="red">♥</span> by Harsh Navani</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/myScript.js"></script>
+
+</body>
+
+</html>
